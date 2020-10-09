@@ -1,0 +1,68 @@
+body {
+    background: #1DB954
+}
+
+.App {
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  ol {
+    list-style-position: inside;
+    color: white;
+    width: 1000px;
+    margin: auto;
+    padding-top: 20px;
+  }
+  
+  ol li {
+    padding: 15px;
+    background: #000;
+  }
+
+  /* Navigation Bar */
+
+.nav-bar {
+  width: 100%;
+  background: rgb(61, 63, 73);
+  color: white;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  z-index: 1;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700; 
+  list-style-type: none; 
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1300px;
+}
+
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+
+.nav .name {
+  display: block;
+  margin-right: auto;
+  color: white;
+}
+
+.name:hover {
+  transition: all .5s;
+  transform: scale(1.1);
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav a:hover {
+  color: rgb(138, 159, 228);
+}
